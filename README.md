@@ -7,6 +7,7 @@ Work on Ubuntu 20.04, requirements:
 - `pyalsaaudio 0.9.0`
 
  b. Ubuntu Package (sudo apt)
+ 
  ```sudo apt install libopencv-core-dev libasound2-dev alsa-base```
 
 `testing-audio.py` for testing audio if its work, over-amplification not included
