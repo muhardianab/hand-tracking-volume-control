@@ -1,13 +1,17 @@
 # Volume Control with Vision of Hand Tracking using OpenCV and MediaPipe
-Work on Ubuntu 20.04, requirements:
+Work on `Ubuntu 20.04`, requirements:
 
- a. Pip
+1. Pip package
 - `opencv 4.5.3.56`
 - `mediapipe 0.8.7.1`
 - `pyalsaaudio 0.9.0`
 
- b. Ubuntu Package (sudo apt)
+2. Ubuntu package
  
- ```sudo apt install libopencv-core-dev libasound2-dev alsa-base```
-
-`testing-audio.py` for testing audio if its work, over-amplification not included
+ ```
+ sudo apt install libopencv-core-dev libasound2-dev alsa-base
+ ```
+ 
+## Testing
+- Testing module using `testing-htm-module.py` from `HandTrackingModule.py` as class
+- Testing audio of alsa if its work after installation using `testing-audio.py`, over-amplification not included. You can refer to this site [PyAlsaAudio](https://github.com/larsimmisch/pyalsaaudio)
