@@ -13,5 +13,5 @@ Work on `Ubuntu 20.04`, requirements:
 - `pyalsaaudio 0.9.0`
  
 ## Testing
-- Testing module using `testing-htm-module.py` from `HandTrackingModule.py` as class
+- Testing module using `testing-htm-module.py` from `HandTrackingModule.py`
 - Testing audio of alsa if its work after installation using `testing-audio.py`, over-amplification not included. You can refer to this site [PyAlsaAudio](https://github.com/larsimmisch/pyalsaaudio)
